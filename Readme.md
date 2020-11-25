@@ -12,10 +12,4 @@ To run build
 npm run build
 ```
 
-To run build on Windows Machine
-
-```
-npm run build:windows
-```
-
 Made with ❤️ by Chandra Shekhar
