@@ -106,6 +106,10 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: "src/index.html",
     }),
+    new HtmlWebpackPlugin({
+      filename: "pages/login.html",
+      template: "src/pages/login.html",
+    }),
     new MiniCssExtractPlugin({ filename: "css/style.css" }),
     new webpack.HotModuleReplacementPlugin(),
   ],
